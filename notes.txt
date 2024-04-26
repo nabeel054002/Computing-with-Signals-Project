@@ -1,0 +1,26 @@
+Here we discuss CNNs in 1d
+
+We define an input 1d column matrix called as feature vector
+and another column matrix filter/weights. 
+
+The result is another column matrix we define it to be Feature Map.
+
+For each element fm_i, in feature map, at index i, we can write 
+
+fm_i = sum ( fv_j * w_k )
+in shorter terms fm = fv * w (convolution)
+
+j varying over i and i + w.size
+and 
+k varying over 0 and w.size
+
+This defines single layer convolution, that is a non deep CNN
+
+however if we talk about multiple layers we take the feature map of one layer 
+as the feature vector for the next layer and a maybe different filter/weights 
+column vector. The same can go on for a few layers.
+
+A possible reference image on the multiple layer CNN.
+
+Reference for explanation 
+https://www.youtube.com/watch?v=yd_j_zdLDWs
