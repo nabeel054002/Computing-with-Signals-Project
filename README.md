@@ -16,3 +16,14 @@ Input consists of 9 inputs/features, across 128 timesteps
 
 Output is a single size 6 column vector that shows the activity in the 128 timesteps - time frame
 
+REFERENCES: 
+
+https://machinelearningmastery.com/cnn-models-for-human-activity-recognition-time-series-classification/
+
+https://stackoverflow.com/questions/58896614/keras-model-summary-does-not-display-the-summary-instead-it-says-something-li
+
+https://www.youtube.com/watch?v=yd_j_zdLDWs
+
+https://www.youtube.com/watch?v=8ah-qhvaQqU
+
+https://www.dremio.com/wiki/pooling-layers/#:~:text=Pooling%20Layers%2C%20also%20known%20as,retaining%20the%20most%20important%20information.
