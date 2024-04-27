@@ -1,3 +1,7 @@
+# Computing With Signals 
+# CNN for 1 Dimension for Human Activity Detection 
+# Nabeel Khan 200121032
+
 We have our inputs for training and testing in the train and test folders respectively
 
 We define 9 features, that vary across time, and have to give an output of size 6, which defines what action are we talking about 
