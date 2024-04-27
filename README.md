@@ -12,3 +12,7 @@ Similarly for other directions y and z, and also for the testing case.
 The units used for the accelerations (total and body) are 'g's (gravity of earth = 9.80665 m/seg2).
 The gyroscope units are rad/seg. 
 
+Input consists of 9 inputs/features, across 128 timesteps
+
+Output is a single size 6 column vector that shows the activity in the 128 timesteps - time frame
+
